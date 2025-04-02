@@ -50,43 +50,301 @@
     </div>
   </nav>
   <header class="header">
+    <div class="container">
     <div class="header-block">
       <h1 class="header-title title-top"><span class= "title-green">Аренда</span> Фото</h1> 
       <h1 class="header-title title-center" >И видео</h1> 
       <h1 class="header-title title-bottom">оборудования</h1>
     </div>  
       <div class="circle"></div>
+    </div>
   </header>
   <section class="info">
     <div class="container">
       <ul class="info-block">
         <li class="info-block-items">
-          <img src="/img/005-list.png" alt="list" class="info-block-image">
+          <svg class="info-block-image" width="32" height="32">
+            <use href="img/sprite.svg#list"></use>
+          </svg>
           <p class="info-block-text">Самый большой выбор техники</p>
-        </li>
+        </li> 
         <li class="info-block-items">
-          <img src="/img/001-time.png" alt="time" class="info-block-image">
+          <svg class="info-block-image" width="32" height="32">
+            <use href="img/sprite.svg#time"></use>
+          </svg>
           <p class="info-block-text">Быстрое оформление заказа</p>
+          </li>
+        <li class="info-block-items">
+          <svg class="info-block-image" width="32" height="32">
+            <use href="img/sprite.svg#placeholder"></use>
+          </svg>
+          <p class="info-block-text">Можно забрать заказ
+            в пункте выдачи</p>
         </li>
         <li class="info-block-items">
-          <img src="" alt="" class="info-block-image">
-          <p class="info-block-text"></p>
+          <img src="img/002-product.png" alt="product" class="info-block-image">
+          <p class="info-block-text">Доставка в любую
+            точку Москвы</p>
         </li>
         <li class="info-block-items">
-          <img src="" alt="" class="info-block-image">
-          <p class="info-block-text"></p>
-        </li>
-        <li class="info-block-items">
-          <img src="" alt="" class="info-block-image">
-          <p class="info-block-text"></p>
-        </li>
-        <li class="info-block-items">
-          <img src="" alt="" class="info-block-image">
-          <p class="info-block-text"></p>
+          <img src="img/003-commerce-and-shopping.png" alt="card" class="info-block-image">
+          <p class="info-block-text">Оплата картой
+            и наличными</p>
         </li>
       </ul>
-
+    </div>
+  </section>
+  <section class="fotocard">
+    <div class="container">
+      <h2 class="fotocard-title"><span class= "title-green">Популярные</span> товары</h2>
+      <div class="fotocards">
+        <div class="fotocards-item">
+              <img src="img/photo.png" alt="photo" class="fotocards-img">
+            <svg class="compare-pic" width="19" height="19">
+              <use href="img/sprite.svg#compare"></use>
+            </svg>
+            <svg class="star-pic" width="24" height="24">
+              <use href="img/sprite.svg#star"></use>
+            </svg>
+          <p class="fotocards-text">PowerShot SX620 HS</p>
+          <p class ="fotocards-infotext">Canon</p>
+              <ul class="fotocard-price-item">
+                <li class="fotocard-price-items">
+                  <p class="price-text">630</p> 
+                  <p class ="fotocards-infotext">Будний</p>  
+                </li>
+                <li class="fotocard-price-items">
+                  <p class="price-text">750</p>
+                  <p class ="fotocards-infotext finfo">Выходной</p>
+                </li>
+                <li class="fotocard-price-items">
+                  <p class="price-text">4380</p>
+                  <p class ="fotocards-infotext">Неделя</p>
+                </li>
+                <li class="fotocard-price-items">
+                  <p class="price-text text-price">12250</p>
+                  <p class ="fotocards-infotext">Месяц</p>
+                </li>
+              </ul>
+              <div class="card-button">
+                <button class="button-white">
+                  <span class="button-white-text">Подробнее</span>
+                </button>
+                <button class="button-green">
+                  <svg class="button-icon" width="16" height="16">
+                    <use href="img/sprite.svg#shopping"></use>
+                  </svg>
+                  <span class="button-green-text">В корзину</span>
+                </button>
+              </div>
+        </div>
+        <div class="fotocards-item">
+          <img src="img/orig_1.png" alt="photo" class="fotocards-img">
+        <svg class="compare-pic" width="19" height="19">
+          <use href="img/sprite.svg#compare"></use>
+        </svg>
+        <svg class="star-pic" width="24" height="24">
+          <use href="img/sprite.svg#star"></use>
+        </svg>
+      <p class="fotocards-text">PowerShot SX620 HS</p>
+      <p class ="fotocards-infotext">Canon</p>
+          <ul class="fotocard-price-item">
+            <li class="fotocard-price-items">
+              <p class="price-text">630</p> 
+              <p class ="fotocards-infotext">Будний</p>  
+            </li>
+            <li class="fotocard-price-items">
+              <p class="price-text">750</p>
+              <p class ="fotocards-infotext finfo">Выходной</p>
+            </li>
+            <li class="fotocard-price-items">
+              <p class="price-text">4380</p>
+              <p class ="fotocards-infotext">Неделя</p>
+            </li>
+            <li class="fotocard-price-items">
+              <p class="price-text text-price">12250</p>
+              <p class ="fotocards-infotext">Месяц</p>
+            </li>
+          </ul>
+          <div class="card-button">
+            <button class="button-white">
+              <span class="button-white-text">Подробнее</span>
+            </button>
+            <button class="button-green">
+              <svg class="button-icon" width="16" height="16">
+                <use href="img/sprite.svg#shopping"></use>
+              </svg>
+              <span class="button-green-text">В корзину</span>
+            </button>
+          </div>
+        </div>
+        <div class="fotocards-item">
+          <img src="img/orig.png" alt="photo" class="fotocards-img">
+        <svg class="compare-pic" width="19" height="19">
+          <use href="img/sprite.svg#compare"></use>
+        </svg>
+        <svg class="star-pic" width="24" height="24">
+          <use href="img/sprite.svg#star"></use>
+        </svg>
+      <p class="fotocards-text">PowerShot SX620 HS</p>
+      <p class ="fotocards-infotext">Canon</p>
+          <ul class="fotocard-price-item">
+            <li class="fotocard-price-items">
+              <p class="price-text">630</p> 
+              <p class ="fotocards-infotext">Будний</p>  
+            </li>
+            <li class="fotocard-price-items">
+              <p class="price-text">750</p>
+              <p class ="fotocards-infotext finfo">Выходной</p>
+            </li>
+            <li class="fotocard-price-items">
+              <p class="price-text">4380</p>
+              <p class ="fotocards-infotext">Неделя</p>
+            </li>
+            <li class="fotocard-price-items">
+              <p class="price-text text-price">12250</p>
+              <p class ="fotocards-infotext">Месяц</p>
+            </li>
+          </ul>
+          <div class="card-button">
+            <button class="button-white">
+              <span class="button-white-text">Подробнее</span>
+            </button>
+            <button class="button-green">
+              <svg class="button-icon" width="16" height="16">
+                <use href="img/sprite.svg#shopping"></use>
+              </svg>
+              <span class="button-green-text">В корзину</span>
+            </button>
+          </div>
+    </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-foto">
+      <div class="parent">
+        <div class="parent-foto1">
+          <img src="/img/photo_1.png" alt="" class="parent-image">
+          <div class="parent-text-block">
+          <span class="parent-text-up">Фотокамеры Canon</span>
+          <span class="parent-text-down">от 3000 рублей</span> 
+          </div>
+        </div>
+        <div class="parent-foto2">
+          <img src="/img/photo_3.png" alt="nature" class="parent-image">
+          <div class="parent-text-block">
+          <span class="parent-text-up">Лучшие объективы</span>
+          <br><span class="parent-text-down">по 700 рублей</span>
+          </div>
+        </div>
+        <div class="parent-foto3">
+          <img src="/img/photo_2.png" alt="nature" class="parent-image">
+          <div class="parent-text-block">
+          <span class="parent-text-up">Видеокамеры</span>
+          <span class="parent-text-down">по 200 рублей в сутки</span>
+          </div>
+        </div>
+        <div class="parent-foto4">
+          <img src="/img/photo_4.png" alt="nature" class="parent-image">
+          <div class="parent-text-block">
+          <span class="parent-text-up">Товар недели</span>
+          <span class="parent-text-down">всего за 4000 рублей</span>
+          </div>
+        </div>
+        <div class="parent-foto5">
+          <img src="/img/photo_5.png" alt="nature" class="parent-image">
+          <div class="parent-text-block">
+          <span class="parent-text-up">Отличные фотокамеры</span>
+          <span class="parent-text-down">за 1500 рублей</span>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section class="work">
+    <div class="container">
+      <h2 class="fotocard-title work-title"><span class= "title-green">Зарабатывайте</span> вместе с нами</h2>
+      <p class="work-text">Сдавайте свою технику через наш сервис, разместив её в 
+      каталоге, и получайте стабильную прибыль.</p>
+      <div class="work-card">
+        <div class="work-cards">
+          <p class="work-cards-text">Доступный способ инвестировать</p>
+          <svg class="work-cards-image" width="32" height="32">
+            <use href="img/sprite.svg#diamond"></use>
+          </svg>
+        </div>
+        <div class="work-cards">
+          <p class="work-cards-text">Постоянный стабильный <br>доход</p>
+          <svg class="work-cards-image" width="32" height="32">
+            <use href="img/sprite.svg#calendar"></use>
+          </svg>
+        </div>
+        <div class="work-cards">
+          <p class="work-cards-text">Гарантии сохранности <br>техники</p>
+          <svg class="work-cards-image" width="32" height="32">
+            <use href="img/sprite.svg#umbrella"></use>
+          </svg>
+        </div>
+        <div class="work-cards">
+          <p class="work-cards-text">Прозрачные <br>выплаты</p>
+          <svg class="work-cards-image" width="32" height="32">
+            <use href="img/sprite.svg#view"></use>
+          </svg>
+        </div>
+      </div>
+      <button class="button-green work-button">
+        <span class="button-green-text">Предложить свою технику</span>
+      </button>
+    </div>  
+  </section>
+  <section class="news">
+    <div class="container">
+      <h2 class="fotocard-title work-title"><span class= "title-green">Новости</span> компании</h2>
+      <div class="news-card">
+        <div class="news-card-item">
+          <p class="news-date">7 апреля 2019</p>
+          <p class="news-title">Выбираем SD-карты для съемки</p>
+          <p class="news-text">За исключением отсутствующей системы аэродинамического 
+            охлаждения, корпус этого ноутбука почти такой же.</p>
+            <img src="/img/photo_6.png" alt="photo" class="news-image">
+        </div>
+        <div class="news-card-item">
+          <img src="/img/photo_7.png" alt="photo" class="news-image">
+          <p class="news-date">20 мая 2019</p>
+          <p class="news-title">Что представила Photokina</p>
+          <p class="news-text text-news">Ноутбук Zephyrus S (GX502) весит 2 кг, а корпус 
+            толщиной всего 18,9 мм позволяет легко уместить его в обычный рюкзак.</p>
+        </div>
+        <div class="news-card-item">
+          <p class="news-date">14 июня 2019</p>
+          <p class="news-title">Новинка goPro Hero 5</p>
+          <p class="news-text">Специальные «легкие» версии приложений для Android 
+            GO и отсутствие некоторых предустановленных программ.</p>
+            <img src="/img/photo_8.png" alt="photo" class="news-image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="subscribe">
+    <div class="container">
+      <div class="subscribe-content">
+        <svg class="subscribe-image" width="40" height="40">
+          <use href="img/sprite.svg#mail"></use>
+        </svg>
+        <p class="subscribe-text"><span class="subscribe-green">Подпишитесь</span>
+          <br>на новости и акции</p>
+          <form action="">
+            <input type="text" class = "subscribe-input" placeholder="Введите e-mail"><button class="subscribe-button">Подписаться</button>
+          </form>
+          <svg class="subscribe-image" width="20" height="20">
+            <use href="img/sprite.svg#call"></use>
+          </svg>
+          <p class="subscribe-title">Заказать звонок</p>
+      </div>
     </div>
   </section>
   </body>
 </html>
+
+
+
+  
