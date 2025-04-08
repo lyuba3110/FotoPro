@@ -6,12 +6,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 <body>
+  <header class="header">
   <nav class="navbar">
-    <div class="menu">
         <img src="img/logo.png" alt="logo" class="logo-image">
         <ul class="menu-list-item">
           <li class="menu-list-items">
@@ -43,14 +44,13 @@
           <li class="icon-item">
             <img src="img/search.png" alt="search" class="icon-image">
           </li>
-          <li class="icon-item">
-            <img src="img/user.png" alt="user" class="icon-image">
+          <li class="icon-item icon-item-last">
+            <a href="" class="icon-link" data-toggle ="modal">
+            <img src="img/user.png" alt="user" class="icon-image"></a>
           </li>
         </ul>  
-    </div>
   </nav>
-  <header class="header">
-    <div class="container">
+  <div class="container">
     <div class="header-block">
       <h1 class="header-title title-top"><span class= "title-green">Аренда</span> Фото</h1> 
       <h1 class="header-title title-center" >И видео</h1> 
@@ -342,6 +342,148 @@
       </div>
     </div>
   </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-content-item">
+          <img src="img/logo.png" alt="logo" class="footer-logo">
+          <p class="footer-text">Самый удобный в Москве сервис  аренды фото, видео и 
+            кинотехники</p>
+          <p class="footer-text-data">© 2015 – 2019 <span class="footer-span">Fotoprokat 24</span></p>
+          <div class="footer-social">
+            <svg class="footer-image" width="32" height="32">
+              <use href="img/sprite.svg#facebook"></use>
+            </svg>
+            <svg class="footer-image" width="32" height="32">
+              <use href="img/sprite.svg#twitter"></use>
+            </svg>
+            <svg class="footer-image" width="32" height="32">
+              <use href="img/sprite.svg#vk"></use>
+            </svg>
+            <svg class="footer-image" width="32" height="32">
+              <use href="img/sprite.svg#youtube"></use>
+            </svg>
+            <svg class="footer-image" width="32" height="32">
+              <use href="img/sprite.svg#instagram"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="footer-content-item">
+          <p class="footer-text-company">Компания</p>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">О компании</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">Новости</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">Вакансии</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">Политика конфиденциальности</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-content-item">
+          <p class="footer-text-company">Клиентам</p>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">Точки выдачи</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">Скидки</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">Бонусные программы</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-content-item">
+          <p class="footer-text-company">Помощь</p>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">Вопрос-ответ</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">Правила аренды</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">Доставка</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">Оплата</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-content-item">
+          <p class="footer-text-company">Контакты</p>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">Fotoprocat24</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">г.Москва, Проспект мира, дом 12 </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">Пн-Вс 9:00 - 21:00</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">+7 (999)999-99-99</a>
+            </li>
+          </ul>
+          <div class="footer-pay">
+            <svg class="footer-image" width="48" height="48">
+            <use href="img/sprite.svg#visa"></use>
+          </svg>
+          <svg class="footer-image" width="48" height="48">
+            <use href="img/sprite.svg#mastercard"></use>
+          </svg>
+          <svg class="footer-image" width="116" height="14">
+            <use href="img/sprite.svg#robokassa"></use>
+          </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="modal">
+    <div class="modal-dialog">
+      <a href="" class="modal-close" data-toggle="modal">
+      <svg class="image-close" width="24" height="24">
+        <use href="img/sprite.svg#close"></use>
+      </svg></a>
+      <p class="modal-text">Войдите в свой аккаунт</p>
+      <div class="modal-social">
+      <svg class="modal-image" width="32" height="32">
+        <use href="img/sprite.svg#vk"></use>
+      </svg>
+      <svg class="modal-image" width="32" height="32">
+        <use href="img/sprite.svg#google"></use>
+      </svg>
+      <svg class="modal-image" width="32" height="32">
+        <use href="img/sprite.svg#facebook"></use>
+      </svg>
+      </div>
+      <form action="" class="modal-form">
+        <div class="input-group">
+         <input type="text" class="modal-input" placeholder="Логин"> 
+        </div>
+        <div class="input-group">
+          <input type="text" class="modal-input" placeholder="Пароль"> 
+        </div>
+        <a href="#" class="modal-link">Вспомнить логин или пароль?</a>
+        <div class="modal-check">
+          <input type="checkbox" class="modal-checkbox">Запомнить пароль для последующего входа
+        </div>
+        <div class="button-group">
+          <button type="submit" class="modal-button-green">Войти</button>
+          <br><button type="submit" class="modal-button-white">Регистрация</button>
+        </div>
+      </form>
+    </div>
+  </div>
+   <script src="js/script.js"></script>
   </body>
 </html>
 
