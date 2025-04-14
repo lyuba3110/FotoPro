@@ -11,7 +11,36 @@
   <title>Document</title>
 </head>
 <body>
-  <header class="header">
+  <header class="header header-image">
+    <div class="mobile-menu">
+      <div class="mobile-icon-left">
+        <svg class="mobile-icon-item" width="16" height="16">
+        <use href="img/sprite.svg#mobalestar"></use>
+        </svg>
+        <svg class="mobile-icon-item" width="16" height="16">
+        <use href="img/sprite.svg#compare"></use>
+        </svg>
+        <svg class="mobile-icon-item" width="16" height="16">
+        <use href="img/sprite.svg#shoping-card"></use>
+        </svg>
+      </div>
+      <img src="img/logo_mobile.png" alt="mobile-logo" class="mobile-logo">
+      <div class="mobile-icon-right">
+        <svg class="mobile-icon-item" width="16" height="16">
+        <use href="img/sprite.svg#mobalesearch"></use>
+        </svg>
+        <svg class="mobile-icon-item" width="16" height="16">
+        <use href="img/sprite.svg#locked"></use>
+        </svg>
+        <div class="mobile-menu-toggle">
+      <a href="#" class="mobile-menu-link">
+        <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
+      </a>
+      </div>
+      </div>
+    </div>
   <nav class="navbar">
         <img src="img/logo.png" alt="logo" class="logo-image">
         <ul class="menu-list-item">
@@ -56,6 +85,10 @@
       <h1 class="header-title title-center" >И видео</h1> 
       <h1 class="header-title title-bottom">оборудования</h1>
     </div>  
+    <div class="mobile-header-block">
+      <p class="mobile-header-title title-top">Аренда фото и видео</p>
+      <p class="mobile-header-title title-bottom">оборудования</p>
+    </div>
       <div class="circle"></div>
     </div>
   </header>
@@ -96,8 +129,8 @@
   </section>
   <section class="fotocard">
     <div class="container">
-      <h2 class="fotocard-title"><span class= "title-green">Популярные</span> товары</h2>
-      <div class="fotocards">
+    <h2 class="fotocard-title"><span class= "title-green">Популярные</span> товары</h2>
+    <div class="fotocards">
         <div class="fotocards-item">
               <img src="img/photo.png" alt="photo" class="fotocards-img">
             <svg class="compare-pic" width="19" height="19">
@@ -138,6 +171,7 @@
                 </button>
               </div>
         </div>
+      
         <div class="fotocards-item">
           <img src="img/orig_1.png" alt="photo" class="fotocards-img">
         <svg class="compare-pic" width="19" height="19">
